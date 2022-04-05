@@ -11,3 +11,6 @@ Instead of removing all the text manaually you can do that by clicking the delet
 
 Live App:
 https://textutiliz.netlify.app/
+
+![Alt text](https://github.com/wal33dahmad/textutiliz/blob/main/src/textutiliz.png)
+
