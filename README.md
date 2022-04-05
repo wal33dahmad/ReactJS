@@ -8,3 +8,6 @@ You can write or insert any text you want to convert to uppercase letters and th
 You can write or insert any text you want to convert to lowercase letters and then click the respective button available below the text area.
 ## 3- Delete or Reset
 Instead of removing all the text manaually you can do that by clicking the delete button.
+
+Live App:
+https://textutiliz.netlify.app/
