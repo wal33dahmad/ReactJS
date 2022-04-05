@@ -35,7 +35,7 @@ function App() {
 
   return (
     <Router>
-      <Navbar title="TextUtils" abt="About Us" mode={mode} toggleMode={toggleMode}/>
+      <Navbar title="TextUtiliz" abt="About Us" mode={mode} toggleMode={toggleMode}/>
 
       <Alert alert={alert}/>
 

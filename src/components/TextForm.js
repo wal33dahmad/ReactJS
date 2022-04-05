@@ -21,9 +21,7 @@ export default function TextForm(props) {
     }
 
     const handleCopyClick = ()=>{
-      var text = document.getElementById('myBox')
-      text.select()
-      navigator.clipboard.writeText(text.value)
+      navigator.clipboard.writeText(text)
       props.alert("Text copied to Clipboard", "success")
     }
 
@@ -50,7 +48,7 @@ export default function TextForm(props) {
         <button disabled={text.length===0} className="btn btn-danger m-2" onClick={handleDeleteClick}>Delete Text</button>
         <h3 className='mt-3'>Your text summary</h3>
         <div className='d-flex justify-content-between'>
-          <p>{ text.split(" ").filter((word)=>{return word.length!==0}).length } words and { text.length } characters</p>
+          <p>{ text.split(/\s+/).filter((word)=>{return word.length!==0}).length } words and { text.length } characters</p>
           <p>{Math.round(0.008 * text.split(" ").length)} minutes read</p>
         </div>
         <h3>Preview</h3>

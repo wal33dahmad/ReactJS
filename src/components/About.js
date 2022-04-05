@@ -11,7 +11,7 @@ export default function About(props) {
     }
   return (
     <div className="container p-5 pt-2" style={containerStyle}>
-        <h1 className="mb-4">About TextUtils</h1>
+        <h1 className="mb-4">About TextUtiliz</h1>
         <div className="accordion my-3" id="accordionExample">
             <div className="accordion-item" style={{ borderColor: props.mode==='light'?'rgba(0,0,0,.125)':'#333'}}>
                 <h2 className="accordion-header" id="headingOne">
@@ -21,7 +21,7 @@ export default function About(props) {
                 </h2>
                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div className="accordion-body" style={accStyle}>
-                    <strong>TextUtils</strong> gives you a way to analyze your text quickly and effeciently. Be it word count, character count or other day to day tasks.
+                    <strong>TextUtiliz</strong> gives you a way to analyze your text quickly and effeciently. Be it word count, character count or other day to day tasks.
                 </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@ export default function About(props) {
                 </h2>
                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div className="accordion-body" style={accStyle}>
-                    <strong>TextUtils</strong> is a free character counter tool that provides instant character count and word count statistics for a given text. 
+                    <strong>TextUtiliz</strong> is a free character counter tool that provides instant character count and word count statistics for a given text. 
                 </div>
                 </div>
             </div>
